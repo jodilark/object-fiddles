@@ -20,17 +20,26 @@ alert(me.name)
 //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
 
   //Code here
-
+let favoriteThings = {
+  band: "Garbage",
+  food: "Sushi",
+  person: "Erik",
+  book: "Ready Player One",
+  movie: "none",
+  holiday: "Any where I get the day off",
+}
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
-
+favoriteThings.car = "leaf"
+favoriteThings.brand = "Microsoft"
 
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 
